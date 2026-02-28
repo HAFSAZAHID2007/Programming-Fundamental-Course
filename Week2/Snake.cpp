@@ -1,18 +1,25 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-main(){
-cout<<"=========================================================\n";
-cout<<"                   THE GIRLS GALLERY\n";
-cout<<"=========================================================\n\n";
-cout<<"----------------------MAIN MENU-------------------------- \n";
-cout<<"  1. View Products\n";
-cout<<"  2. Shop Accessories\n";
-cout<<"  3. New Arrivals\n";
-cout<<"  4. Special Offers\n";
-cout<<"  5. Contact Us\n";
-cout<<"  6. About us\n";
-cout<<"  7. Exit\n";
-cout<<"========================================================\n\n";
+
+main()
+{   
+    system("color 04");
+    cout << "===========================================\n";
+    cout << "              Snake game                  \n";
+    cout << "===========================================\n";
+    cout << "||                                       ||\n";
+    cout << "||           0 0 0 0 0 0 0 0 0 0         ||\n";
+    cout << "||  @        0                 0         ||\n";
+    cout << "||           0                 0         ||\n";
+    cout << "||           0                  0 0 0 0  ||\n";
+    cout << "||           0                        0  ||\n";
+    cout << "||         0 0        @                  ||\n";
+    cout << "||         0                             ||\n";
+    cout << "||         V                             ||\n";
+    cout << "||                                       ||\n";
+    cout << "||        @                     @        ||\n";
+    cout << "||                                       ||\n";
+    cout << "===========================================\n";
 
 cout<<"#######################################################\n";
 cout<<"#                    TIC-TAC-TOE                      #\n";
@@ -32,4 +39,3 @@ cout<<"#    Press a number (1-9) to place your mark.         #\n";
 cout<<"#    Take turns and enjoy the game!                   #\n\n";
 cout<<"#######################################################\n";
 }
-
