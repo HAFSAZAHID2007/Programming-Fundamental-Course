@@ -33,4 +33,10 @@ cout<<"Number 14: ";
 cin>>n14;
 cout<<"Number 15: ";
 cin>>n15;
+int add,mul,sub,res;
+add=n1+n2+n3+n4+n5;
+mul=n6*n7*n8*n9*n10;
+sub=n11-n12-n13-n14-n15;
+res=(add+mul)-sub;
+cout<<"The final result is : "<<res;
 }
