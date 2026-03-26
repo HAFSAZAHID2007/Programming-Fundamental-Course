@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+main(){
+    int num[5];
+    num[0]=15;
+    num[1]=12;
+    num[2]=13;
+    num[3]=19;
+    num[4]=10;
+    cout<<"The 2nd element at location num[0] is:"<< num[1] <<endl;
+    cout<<"The 4th element at location num[0] is:"<< num[3] <<endl;
+}
