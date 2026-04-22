@@ -7,7 +7,7 @@ main()
     int count = 4;            // current products
 
     // Product database
-    string productName[totalProducts] = {"hf", "airbuds", "rice", "eggs"};
+    string productName[totalProducts] = {"hf", "airbuds", "charger", "mp3s"};
     float productPrice[totalProducts] = {350, 450, 400, 250};
     int productQty[totalProducts] = {90, 100, 90, 100};
 
