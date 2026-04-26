@@ -3,7 +3,7 @@
 using namespace std;
 main()
 {
-    int totalProducts = 1000; // fixed size inventory system
+    int totalProducts = 100; // fixed size inventory system
     int count = 4;            // current products
 
     // Product database
